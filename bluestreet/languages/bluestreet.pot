@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Bluestreet\n"
-"POT-Creation-Date: 2022-12-26 13:59+0530\n"
+"POT-Creation-Date: 2024-10-24 13:24+0530\n"
 "PO-Revision-Date: 2018-09-26 19:56+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -89,76 +89,82 @@ msgstr ""
 msgid "Changelog"
 msgstr ""
 
-#: admin/inc/class-webriti-about-page.php:425
+#: admin/inc/class-webriti-about-page.php:427
+#: class-tgm-plugin-activation.php:2717 functions.php:187
+msgid "Install"
+msgstr ""
+
+#: admin/inc/class-webriti-about-page.php:434
 #, php-format
 msgid "Install %s Now"
 msgstr ""
 
-#: admin/inc/class-webriti-about-page.php:427
+#: admin/inc/class-webriti-about-page.php:436
 #: admin/inc/include-companion.php:82
 msgid "Install & Activate"
 msgstr ""
 
-#: admin/inc/class-webriti-about-page.php:444
+#: admin/inc/class-webriti-about-page.php:454
 #, php-format
 msgid "Activate %s Now"
 msgstr ""
 
-#: admin/inc/class-webriti-about-page.php:446
+#: admin/inc/class-webriti-about-page.php:456
 #: class-tgm-plugin-activation.php:2726
 msgid "Activate"
 msgstr ""
 
-#: admin/inc/class-webriti-about-page.php:449
+#: admin/inc/class-webriti-about-page.php:459
 #: class-tgm-plugin-activation.php:2321
 msgid "Active"
 msgstr ""
 
-#: admin/inc/class-webriti-about-page.php:559
+#: admin/inc/class-webriti-about-page.php:569
 #: admin/inc/include-companion.php:81 admin/inc/include-companion.php:98
+#: functions.php:183
 msgid "Webriti Companion"
 msgstr ""
 
-#: admin/inc/class-webriti-about-page.php:562
+#: admin/inc/class-webriti-about-page.php:572
 msgid ""
 "It is highly recommended that you install the Webriti Companion plugin to "
 "have access to the advance Frontpage sections and other theme features"
 msgstr ""
 
-#: admin/inc/class-webriti-about-page.php:566
+#: admin/inc/class-webriti-about-page.php:576
 msgid "Contact Form 7"
 msgstr ""
 
-#: admin/inc/class-webriti-about-page.php:569
+#: admin/inc/class-webriti-about-page.php:579
 msgid ""
 "It is recommended that you install the Contact Form 7 plugin to show contact "
 "form on pages"
 msgstr ""
 
-#: admin/inc/class-webriti-about-page.php:573
+#: admin/inc/class-webriti-about-page.php:583
 msgid "WooCommerce"
 msgstr ""
 
-#: admin/inc/class-webriti-about-page.php:576
+#: admin/inc/class-webriti-about-page.php:586
 msgid ""
 "To create a shop page you just need to install this plugin & activate it"
 msgstr ""
 
-#: admin/inc/class-webriti-about-page.php:580
+#: admin/inc/class-webriti-about-page.php:590
 msgid "Spice Post Slider"
 msgstr ""
 
-#: admin/inc/class-webriti-about-page.php:583
+#: admin/inc/class-webriti-about-page.php:593
 msgid ""
 "To display the posts in a beautiful slider with multiple options, install & "
 "activate this plugin."
 msgstr ""
 
-#: admin/inc/class-webriti-about-page.php:587
+#: admin/inc/class-webriti-about-page.php:597
 msgid "Seo Optimized Images"
 msgstr ""
 
-#: admin/inc/class-webriti-about-page.php:590
+#: admin/inc/class-webriti-about-page.php:600
 msgid ""
 "It is recommended that you install & activate the Seo Optimized Images "
 "plugin to dynamically insert SEO Friendly alt attributes and title "
@@ -545,8 +551,8 @@ msgid ""
 "support you can create a website available in multiple languages."
 msgstr ""
 
-#: blog-fullwidth.php:32 functions/template-tag.php:273
-#: functions/template-tag.php:332
+#: blog-fullwidth.php:32 functions/template-tag.php:261
+#: functions/template-tag.php:320
 msgid "Read More"
 msgstr ""
 
@@ -887,10 +893,6 @@ msgstr ""
 msgid "Upgrade message from the plugin author:"
 msgstr ""
 
-#: class-tgm-plugin-activation.php:2717
-msgid "Install"
-msgstr ""
-
 #: class-tgm-plugin-activation.php:2723
 msgid "Update"
 msgstr ""
@@ -1007,6 +1009,19 @@ msgstr ""
 msgid "Footer widget area"
 msgstr ""
 
+#: functions.php:180
+#, php-format
+msgid "Thank you for installing the %1$s theme."
+msgstr ""
+
+#: functions.php:182
+msgid "We highly recommend you to install and activate the"
+msgstr ""
+
+#: functions.php:185
+msgid "This plugin will unlock enhanced features to build a beautiful website."
+msgstr ""
+
 #: functions/customizer/customizer-blog-layout.php:25
 msgid "Blog Layout Setting"
 msgstr ""
@@ -1050,35 +1065,35 @@ msgstr ""
 msgid "Center Layout"
 msgstr ""
 
-#: functions/template-tag.php:93 functions/template-tag.php:213
+#: functions/template-tag.php:88 functions/template-tag.php:201
 msgid "Toggle navigation"
 msgstr ""
 
-#: functions/template-tag.php:268
+#: functions/template-tag.php:256
 msgid "0"
 msgstr ""
 
-#: functions/template-tag.php:268
+#: functions/template-tag.php:256
 msgid "1"
 msgstr ""
 
-#: functions/template-tag.php:268
+#: functions/template-tag.php:256
 msgid "%"
 msgstr ""
 
-#: functions/template-tag.php:292 functions/template-tag.php:342
+#: functions/template-tag.php:280 functions/template-tag.php:330
 msgid "No Posts to show."
 msgstr ""
 
-#: functions/template-tag.php:327
+#: functions/template-tag.php:315
 msgid "No comments"
 msgstr ""
 
-#: functions/template-tag.php:327
+#: functions/template-tag.php:315
 msgid "1 comment"
 msgstr ""
 
-#: functions/template-tag.php:327
+#: functions/template-tag.php:315
 msgid "% Comments"
 msgstr ""
 

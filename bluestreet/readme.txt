@@ -3,8 +3,8 @@
 Contributors: priyanshumittal
 Tags: full-width-template, threaded-comments, right-sidebar, one-column, two-columns, custom-menu, sticky-post, translation-ready, featured-images, blog, footer-widgets
 Requires at least: 4.5
-Tested up to: 6.4
-Stable tag: 1.7.1
+Tested up to: 6.6
+Stable tag: 1.7.2
 Requires PHP: 5.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -37,6 +37,9 @@ BlueStreet WordPress Theme is distributed under the terms of the GNU GPL
 For any ideas, support and feedback you can access the theme forum.
 
 == Changelog ==
+
+@version 1.7.2
+1.Updated the options page.
 
 @version 1.7.1
 1. Updated font-awesome library.

@@ -1,5 +1,8 @@
 == Changelog ==
 
+@version 1.7.2
+1.Updated the options page.
+
 @version 1.7.1
 1. Updated font-awesome library.
 

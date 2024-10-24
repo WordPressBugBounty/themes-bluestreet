@@ -419,13 +419,23 @@ if (!class_exists('bluestreet_About_Page')) {
 					self_admin_url('update.php')
 				);
 				$plugin_install_url = wp_nonce_url($plugin_install_url, 'install-plugin_' . esc_attr($slug));
-				$button_html        = sprintf('<a class="webriti-plugin-install install-now button-secondary button" data-slug="%1$s" href="%2$s" aria-label="%3$s" data-name="%4$s">%5$s</a>',
-					esc_attr($slug),
-					esc_url($plugin_install_url),
-					sprintf(esc_html__('Install %s Now', 'bluestreet'), esc_html($name)),
-					esc_html($name),
-					esc_html__('Install & Activate', 'bluestreet')
-				);
+				if($slug==='webriti-companion'){
+					$plugin_url = "https://webriti.com/extensions/webriti-companion.zip";
+					$button_html = sprintf(
+					    '<button id="install-plugin-button-options-page" class="button" data-plugin-url="%1$s">%2$s</button>',
+					    esc_url($plugin_url),
+					    esc_html__('Install', 'bluestreet')
+					);
+				}
+				else{
+					$button_html        = sprintf('<a class="webriti-plugin-install install-now button-secondary button" data-slug="%1$s" href="%2$s" aria-label="%3$s" data-name="%4$s">%5$s</a>',
+						esc_attr($slug),
+						esc_url($plugin_install_url),
+						sprintf(esc_html__('Install %s Now', 'bluestreet'), esc_html($name)),
+						esc_html($name),
+						esc_html__('Install & Activate', 'bluestreet')
+					);
+				}
 			} elseif ($is_installed && !$is_activeted) {
 
 				$plugin_activate_link = add_query_arg(
