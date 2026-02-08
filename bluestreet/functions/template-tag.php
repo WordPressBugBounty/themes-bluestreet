@@ -4,7 +4,7 @@ if (!function_exists('bluestreet_header_center_layout')) :
     function bluestreet_header_center_layout() {
         $bluestreet_current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array() ), wallstreet_theme_data_setup() );?>
     <!-- logo -->
-        <div class="navbar-header index3">
+        <div class="navbar-header index3 navbar-expand-lg">
             
                         <?php
                          
@@ -82,21 +82,18 @@ if (!function_exists('bluestreet_header_center_layout')) :
             <?php  } ?>
         </div>
     <!-- /logo -->
-        <div class="navbar navbar-wrapper navbar-inverse navbar-static-top navbar3" role="navigation">
-            <div class="container">    
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only"><?php esc_html_e('Toggle navigation','bluestreet'); ?></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+        <div class="navbar navbar-wrapper navbar-inverse navbar-static-top navbar3 navbar-expand-lg navbar-dark" role="navigation">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon"></span>
+           </button>
                                   <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <?php
                     wp_nav_menu( array(  
                             'theme_location' => 'primary',
                             'container'  => 'nav-collapse collapse navbar-inverse-collapse',
-                            'menu_class' => 'nav navbar-nav navbar-left',
+                            'menu_class' => 'nav navbar-nav me-auto',
                             'fallback_cb' => 'wallstreet_fallback_page_menu',
                             'walker' => new wallstreet_nav_walker()
                             )
@@ -114,7 +111,7 @@ if (!function_exists('bluestreet_header_default_layout')) :
 
     function bluestreet_header_default_layout() {
         $bluestreet_current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array() ), wallstreet_theme_data_setup() );?>
-        <div class="navbar navbar-wrapper navbar-inverse navbar-static-top" role="navigation">
+        <div class="navbar navbar-wrapper navbar-inverse navbar-static-top navbar-expand-lg" role="navigation">
             <div class="container">
               
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -197,12 +194,9 @@ if (!function_exists('bluestreet_header_default_layout')) :
                         <?php  } ?>
 
                 <!-- /logo -->
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only"><?php esc_html_e('Toggle navigation','bluestreet'); ?></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
+                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon"></span>
+           </button>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -210,7 +204,7 @@ if (!function_exists('bluestreet_header_default_layout')) :
                     wp_nav_menu( array(  
                             'theme_location' => 'primary',
                             'container'  => 'nav-collapse collapse navbar-inverse-collapse',
-                            'menu_class' => 'nav navbar-nav navbar-right',
+                            'menu_class' => 'nav navbar-nav navbar-right ms-auto',
                             'fallback_cb' => 'wallstreet_fallback_page_menu',
                             'walker' => new wallstreet_nav_walker()
                             )
@@ -243,7 +237,7 @@ if (!function_exists('bluestreet_blog_listed_layout')) :
                         <div class="media">
                             <div class="blog-post-img">
                             <?php
-                            $bluestreet_defalt_arg =array('class' => "img-responsive");
+                            $bluestreet_defalt_arg =array('class' => "img-fluid");
                             if(has_post_thumbnail()): 
                             the_post_thumbnail('', $bluestreet_defalt_arg); 
                             endif; 
@@ -303,7 +297,7 @@ if (!function_exists('bluestreet_blog_default_layout')) :
             <div class="col-md-4 col-sm-6">
                 <div class="home-blog-area">
                     <div class="home-blog-post-img"><?php
-                        $bluestreet_defalt_arg =array('class' => "img-responsive");
+                        $bluestreet_defalt_arg =array('class' => "img-fluid");
                         if(has_post_thumbnail()): 
                         the_post_thumbnail('', $bluestreet_defalt_arg); 
                         endif; 

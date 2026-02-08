@@ -1,6 +1,7 @@
 .bluestreet-nav-tabs {
     margin: 30px 0 0;
     border-bottom: 1px solid #dedede;
+    padding: 0;
 }
 .bluestreet-nav-tabs:after {
     clear: both;

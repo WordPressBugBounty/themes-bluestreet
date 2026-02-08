@@ -39,7 +39,7 @@
 				<h3><?php esc_html_e( "Useful Links", 'bluestreet' ); ?></h3>
 			</div>
 			<div class=" useful_box">
-                <div class="bluestreet-tab-pane-half bluestreet-tab-pane-first-half">
+                <div class="bluestreet-tab-pane-half bluestreet-tab-pane-first-half row">
                 	<div class="col-md-6">
                     <a href="<?php echo esc_url('https://bluestreet.webriti.com/'); ?>" target="_blank"  class="info-block">
                     	<div class="dashicons dashicons-desktop info-icon"></div>
@@ -53,7 +53,7 @@
                     </a>
                     </div>        
                 </div>
-                <div class="bluestreet-tab-pane-half bluestreet-tab-pane-first-half">
+                <div class="bluestreet-tab-pane-half bluestreet-tab-pane-first-half row">
                 	<div class="col-md-6">
                     <a href="<?php echo esc_url('https://wordpress.org/support/view/theme-reviews/bluestreet'); ?>" target="_blank"  class="info-block">
                     	<div class="dashicons dashicons-smiley info-icon"></div>

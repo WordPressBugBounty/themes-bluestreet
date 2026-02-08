@@ -1,5 +1,8 @@
 == Changelog ==
 
+@version 1.7.3
+1. Updated bootstrap 5.3.6.
+
 @version 1.7.2
 1.Updated the options page.
 

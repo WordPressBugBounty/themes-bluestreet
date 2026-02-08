@@ -1,6 +1,6 @@
 
 /* Default css */
-.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus { background: #22a1c4; }
+.navbar-inverse .navbar-toggler, .navbar-inverse .navbar-toggler:hover, .navbar-inverse .navbar-toggler:focus { background: #22a1c4; }
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
     color: #fff !important;
 }
@@ -713,3 +713,4 @@ figcaption, blockquote cite, .wp-block-pullquote cite, .wp-block-embed__wrapper,
 }
 .woocommerce-account .woocommerce li a { color: #ffffff; }
 .woocommerce-account .woocommerce li a:hover { color: #22a1c4; }
+.reply a {color: #22a1c4;}

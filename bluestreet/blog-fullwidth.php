@@ -17,7 +17,7 @@ get_header(); ?>
 			$bluestreet_post_type_data->the_post();?>
 			<div id="post-<?php the_ID(); ?>" <?php post_class('blog-section-right'); ?>>
 				<?php if(has_post_thumbnail()){ ?>
-				<?php $bluestreet_defalt_arg =array('class' => "img-responsive"); ?>
+				<?php $bluestreet_defalt_arg =array('class' => "img-fluid"); ?>
 				<div class="blog-post-img">
 					<?php the_post_thumbnail('', $bluestreet_defalt_arg); ?>
 				</div>
